@@ -1,0 +1,130 @@
+@font-face{
+    font-family: Vazir;
+    src: url(../Vazir-font/Vazir.woff2),
+    url(../Vazir-font/Vazir.woff),
+    url(../Vazir-font/Vazir.ttf),
+    url(../Vazir-font/Vazir.eot);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazir;
+}
+.header{
+    height: 100px;
+    background-color: #B2BABB;
+}
+.nav-bar{
+    height: 30px;
+    background-color: #F1F8F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-button-1{
+    margin-left: 10px;
+    width: 50px;
+    line-height: 0;
+    height: 20px;
+    background-color: #B2BABB;
+    border: 1.3px solid #919697;
+    border-radius: 4px;
+}
+.nav-bar-button-2{
+    margin-right: 10px;
+    line-height: 0;
+    width: 60px;
+    height: 20px;
+    background-color: #B2BABB;
+    border: 1.3px solid #919697;
+    border-radius: 4px;
+}
+.nav-bar-image{
+    margin-left: 5px;
+    width: 25px;
+    height: 20px;
+    border-radius: 4px;
+}
+.nav-bar-button-1-2{
+    display: flex;
+    justify-content: center;
+}
+.section-g-1{
+    margin: 10px;
+    background-color: #F1F8F9;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+.section-g-1 > p{
+    color: #919697;
+}
+.section-g-1-image{
+    align-self: center;
+    width: 50%;
+    height: 50%;
+}
+.section-g-2{
+    margin: 10px;
+    background-color: #F1F8F9;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+.section-g-2 > p{
+    align-self: center;
+    color: #919697;
+    margin-right: 10px;
+}
+.section-g-2-image{
+    align-self: center;
+    width: 20%;
+    height: 50%;
+}
+.section-g-3{
+    margin: 10px;
+    background-color: #F1F8F9;
+    width: 300px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+.section-g-3 > p{
+    color: #919697;
+}
+.section-g-3-image{
+    align-self: center;
+    width: 30%;
+    height: 50%;
+}
+.section-g-4{
+    margin: 10px;
+    background-color: #F1F8F9;
+    width: 300px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+.section-g-4 > p{
+    color: #919697;
+}
+.section-g-4-image{
+    align-self: center;
+    width: 30%;
+    height: 50%;
+}
